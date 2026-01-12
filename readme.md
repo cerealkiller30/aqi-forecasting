@@ -1,11 +1,11 @@
 ## AQI Forecasting System
 
-A scalable AQI prediction system using a single global LSTM model
-trained on multiple monitoring stations.
+An AQI prediction system using a XGBoost model
+trained on data from a single monitoring station.
 
-- City: Mumbai (initial)
+- City: Mumbai - Malad
 - Forecast horizon: 7 days
-- Model: LSTM
+- Model: XGBoost
 - Data source: AQICN
 
 See `notebooks/aqi_forecast_mumbai.ipynb` for full workflow.
